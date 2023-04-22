@@ -70,6 +70,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 250ms;
 }
 
 .page-nav a:hover {
@@ -127,6 +128,7 @@ img {
 .cat-list li {
   border-radius: 16px;
   overflow: hidden;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 350ms;
 }
 
 .cat-list li:hover {
@@ -134,7 +136,7 @@ img {
 }
 
 .cat-list .content {
-  padding: 16px 8px 24px 8px;
+  padding: 16px;
   padding-bottom: 24px;
 }
 
@@ -165,6 +167,7 @@ img {
   flex-basis: calc((100% - 5 * 16px) / 6);
   border-radius: 16px;
   overflow: hidden;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 250ms;
 }
 .gallery li:hover {
   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
@@ -204,6 +207,7 @@ img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 350ms;
 }
 
 .social-links a:hover {
@@ -217,6 +221,7 @@ img {
   width: 16px;
   height: 16px;
   fill: #ffffff;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 350ms;
 }
 
 .social-text {
@@ -224,4 +229,5 @@ img {
   letter-spacing: 0.5px;
   color: #ffffff;
   text-align: right;
+  margin-bottom: 8px;
 }
